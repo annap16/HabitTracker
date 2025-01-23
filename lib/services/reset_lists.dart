@@ -172,7 +172,10 @@ void checkForPendingReset() async {
 void makeUpdateIfNeeded(Habit habit) async {
   switch (habit.frequency) {
     case ReminderFrequency.daily:
-      if (habit.lastUpdated!.day != DateTime.now().day) {
+      if (habit.lastUpdated!.day != DateTime.now().day ||
+          (habit.lastUpdated!.day == DateTime.now().day &&
+              (habit.lastUpdated!.month != DateTime.now().month ||
+                  habit.lastUpdated!.year != DateTime.now().year))) {
         habit.isCompleted = false;
         habit.executionCount = 0;
         habit.lastUpdated = DateTime.now();
@@ -189,7 +192,9 @@ void makeUpdateIfNeeded(Habit habit) async {
       }
       break;
     case ReminderFrequency.monthly:
-      if (habit.lastUpdated!.month != DateTime.now().month) {
+      if (habit.lastUpdated!.month != DateTime.now().month ||
+          (habit.lastUpdated!.month == DateTime.now().month &&
+              habit.lastUpdated!.year != DateTime.now().year)) {
         habit.isCompleted = false;
         habit.executionCount = 0;
         habit.lastUpdated = DateTime.now();

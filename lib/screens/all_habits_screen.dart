@@ -16,19 +16,13 @@ class AllHabitsScreen extends StatelessWidget {
         automaticallyImplyLeading: false,
       ),
       drawer: const MyDrawer(),
-      body: CustomScrollView(
-        slivers: [
-          const SliverToBoxAdapter(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                UpperMenu(),
-              ],
-            ),
-          ),
-          SliverFillRemaining(
+      body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const UpperMenu(),
+          Expanded(
             child: AllHabitsList(),
-          ),
+          )
         ],
       ),
     );

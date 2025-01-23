@@ -37,17 +37,10 @@ class MainView extends StatelessWidget {
         automaticallyImplyLeading: false,
       ),
       drawer: const MyDrawer(),
-      body: CustomScrollView(
-        slivers: [
-          const SliverToBoxAdapter(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                UpperMenu(),
-              ],
-            ),
-          ),
-          SliverFillRemaining(
+      body: Column(
+        children: [
+          const UpperMenu(),
+          Expanded(
             child: HabitList(),
           ),
         ],

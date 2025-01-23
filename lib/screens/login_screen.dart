@@ -34,7 +34,7 @@ class LoginScreenState extends State<LoginScreen> {
       //scheduleNotificationAt12();
       //scheduleNotificationAt20();
 
-      if (!context.mounted) {
+      if (context.mounted) {
         Navigator.push(
           context,
           MaterialPageRoute(builder: (context) => const MainView()),

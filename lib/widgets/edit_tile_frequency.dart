@@ -112,6 +112,13 @@ class EditTileFrequencyState extends State<EditTileFrequency> {
                 if (_isEditing) {
                   widget.habit.frequency = _selectedFrequency!;
                   widget.habit.detailedFrequency = _selectedDetailedFrequency!;
+                  if (_selectedDetailedFrequency! <=
+                      widget.habit.executionCount) {
+                    widget.habit.executionCount = _selectedDetailedFrequency!;
+                    widget.habit.isCompleted = true;
+                  } else {
+                    widget.habit.isCompleted = false;
+                  }
                   widget.habit.updateHabit();
                 }
                 _isEditing = !_isEditing;
