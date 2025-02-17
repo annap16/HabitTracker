@@ -1,4 +1,10 @@
-# Habit Tracker
+
+## Choose your language version
+- [Polski](#habit-tracker-pol)
+- [English](#habit-tracker-en)
+
+---
+# Habit Tracker (Polski) <a name="habit-tracker-pol"></a>
 
 Aplikacja umożliwia śledzenie nawyków użytkownika oraz motywowanie do konsekwentnego działania. Główne funkcjonalności obejmują tworzenie, edytowanie, usuwanie nawyków, personalizację nawyków, przegląd nawyków oraz przypomnienia o ich realizacji.
 
@@ -45,7 +51,7 @@ Aplikacja umożliwia śledzenie nawyków użytkownika oraz motywowanie do konsek
 <img src="https://private-user-images.githubusercontent.com/160714456/413890006-1435f72f-34f5-4b3b-89b0-5c011bea369d.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk4MDEyOTksIm5iZiI6MTczOTgwMDk5OSwicGF0aCI6Ii8xNjA3MTQ0NTYvNDEzODkwMDA2LTE0MzVmNzJmLTM0ZjUtNGIzYi04OWIwLTVjMDExYmVhMzY5ZC5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMjE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDIxN1QxNDAzMTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xZDVhMmRkN2E3OWFhNDNhODJiNzgyYjQ1ZjcyNGJjNGJhNzA3M2RmMzZlZDRiZmFmZGE3M2M2YTRmYzkzYjc5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.lr2X4H9J7gkkbM1BHEDJsmBPPoPs9Z3VLyR_5vTUAJo" width="300"/>
 </p>
 
-# Habit Tracker
+# Habit Tracker (English) <a name="habit-tracker-en"></a>
 
 The app allows users to track their habits and motivates them to take consistent actions. The main features include creating, editing, and deleting habits, personalizing habits, reviewing habits, and setting reminders for their execution.
 
