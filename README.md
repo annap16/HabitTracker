@@ -1,5 +1,5 @@
 
-## Choose your language version
+# Choose your language version
 - [Polski](#habit-tracker-pol)
 - [English](#habit-tracker-en)
 
